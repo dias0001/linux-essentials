@@ -22,6 +22,7 @@ Os conhecimentos também contribuem para minha formação em redes e segurança 
 |---|---|
 | Linux Essentials — Objetivo 1.1 | [Introdução ao Linux](anotacoes/objetivo-1.1-linux.md) |
 | Linux Essentials — Objetivo 1.2 | [Aplicativos Open Source](anotacoes/objetivo-1.2-aplicativos-open-source.md) |
+| Linux Essentials — Objetivo 1.3 | [Software Open Source e Licenças](anotacoes/objetivo-1.3-licencas-open-source.md) |
 
 ## 🧪 Laboratórios práticos
 
