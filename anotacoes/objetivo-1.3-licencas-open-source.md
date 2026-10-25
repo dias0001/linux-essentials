@@ -44,12 +44,12 @@ O kernel Linux utiliza a licença GPLv2.
 
 A Free Software Foundation (FSF), fundada por Richard Stallman, estabelece quatro liberdades essenciais:
 
-| Liberdade                            | Descrição 
-|--------------------------------------|----------------------------------------------------
-| 0 — Executar                         | Executar o programa para qualquer finalidade. |
-| 1 — Estudar e modificar              | Estudar o funcionamento do programa e modificá-lo. |
-| 2 — Redistribuir                     | Compartilhar cópias do programa. |
-| 3 — Distribuir modificações          | Compartilhar versões modificadas do programa. |
+| Liberdade | Descrição |
+|---|---|
+| 0 — Executar | Executar o programa para qualquer finalidade. |
+| 1 — Estudar e modificar | Estudar o funcionamento do programa e modificá-lo. |
+| 2 — Redistribuir | Compartilhar cópias do programa. |
+| 3 — Distribuir modificações | Compartilhar versões modificadas do programa. |
 
 As liberdades 1 e 3 dependem do acesso ao código-fonte.
 
@@ -72,15 +72,13 @@ A palavra **Libre** reforça que estamos falando de liberdade, não necessariame
 
 ## Licenças permissivas e Copyleft
 
-------------------------------------------------------------------------------------------------------------------------------------------------
-| Licença            Classificação |    Característica |                                                                                       -
-|------------------------------------------------------------------------------------------------------------------------------------------------
-| GPLv3              Copyleft   |       Preserva as liberdades nas versões derivadas distribuídas. |                                           -
-| BSD Simplificada   Permissiva |       Permite distribuir versões proprietárias, respeitando suas condições. |
-| MIT                Permissiva |       Permite reutilização comercial e proprietária, mantendo os avisos exigidos. |
-| CC BY              Permissiva |       Permite adaptações, exigindo atribuição ao autor. |
-| CC BY-SA           Copyleft   |       Exige atribuição e compartilhamento das adaptações sob a licença correspondente. |
-------------------------------------------------------------------------------------------------------------------------------------------------
+| Licença | Classificação | Característica |
+|---|---|---|
+| GPLv3 | Copyleft | Preserva as liberdades nas versões derivadas distribuídas. |
+| BSD Simplificada | Permissiva | Permite distribuir versões proprietárias, respeitando suas condições. |
+| MIT | Permissiva | Permite reutilização comercial e proprietária, mantendo os avisos exigidos. |
+| CC BY | Permissiva | Permite adaptações, exigindo atribuição ao autor. |
+| CC BY-SA | Copyleft | Exige atribuição e compartilhamento das adaptações sob a licença correspondente. |
 
 A GPL e a BSD são utilizadas em software. As licenças Creative Commons são voltadas principalmente para obras criativas e materiais de conteúdo.
 
@@ -95,15 +93,14 @@ As condições fundamentais são:
 
 ### As seis licenças Creative Commons
 
-| Licença           Característica |
-|------------------------------------------------------------------------------------------------------------------------------------------------
-| CC BY |           Permite adaptações e uso comercial, exigindo atribuição. |
-| CC BY-SA |        Permite adaptações e uso comercial, mantendo a licença exigida. |
-| CC BY-ND |        Permite compartilhar a obra sem distribuir modificações. |
-| CC BY-NC |        Permite adaptações para fins não comerciais. |
-| CC BY-NC-SA |     Permite adaptações não comerciais, mantendo a licença exigida. |
-| CC BY-NC-ND |     Permite compartilhar a obra inalterada e somente para fins não comerciais. |
-------------------------------------------------------------------------------------------------------------------------------------------------
+| Licença | Característica |
+|---|---|
+| CC BY | Permite adaptações e uso comercial, exigindo atribuição. |
+| CC BY-SA | Permite adaptações e uso comercial, mantendo a licença exigida. |
+| CC BY-ND | Permite compartilhar a obra sem distribuir modificações. |
+| CC BY-NC | Permite adaptações para fins não comerciais. |
+| CC BY-NC-SA | Permite adaptações não comerciais, mantendo a licença exigida. |
+| CC BY-NC-ND | Permite compartilhar a obra inalterada e somente para fins não comerciais. |
 
 Todas exigem atribuição ao autor.
 
