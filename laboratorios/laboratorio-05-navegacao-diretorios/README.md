@@ -565,4 +565,156 @@ Editar → Conferir → Preparar → Registrar → Publicar.
 
 ---
 
+## 15. Investigação prática — Caminhos relativos, navegação e Git
+
+### 15.1. Objetivo
+
+Investigar como o diretório de trabalho atual influencia a execução de comandos Linux e Git.
+
+O exercício surgiu durante a atualização da documentação do Laboratório 05, quando o comando `git diff -- README.md` não apresentou as alterações esperadas.
+
+A investigação envolveu os comandos `pwd`, `ls`, `cd`, `cat`, `git status` e `git diff`.
+
+### 15.2. O problema inicial
+
+Após editar o arquivo:
+
+`laboratorios/laboratorio-05-navegacao-diretorios/README.md`
+
+Foi executado, na raiz do repositório:
+
+```bash
+git diff -- README.md
+```
+
+O comando não apresentou diferenças.
+
+Entretanto, `git status` indicava que o README do Laboratório 05 havia sido modificado.
+
+**Causa identificada:**
+
+O caminho `README.md` foi interpretado a partir do diretório atual, `/home/aluno/linux-estudos`.
+
+Consequentemente, o Git examinou o README principal, e não o README do Laboratório 05.
+
+### 15.3. Investigação utilizando comandos Linux
+
+Para localizar o arquivo, foram utilizados:
+
+```bash
+pwd
+ls -l
+cd laboratorios
+ls -l
+ls -l laboratorio-05-navegacao-diretorios
+```
+
+Em seguida, foi realizada uma tentativa:
+
+```bash
+cat README.md
+```
+
+O comando retornou:
+
+```text
+cat: README.md: No such file or directory
+```
+
+O erro ocorreu porque o terminal ainda estava no diretório `laboratorios`, enquanto o arquivo desejado estava dentro do subdiretório `laboratorio-05-navegacao-diretorios`.
+
+A solução encontrada foi:
+
+```bash
+cd laboratorio-05-navegacao-diretorios
+cat README.md
+```
+
+O conteúdo do arquivo foi exibido corretamente.
+
+### 15.4. A solução para o Git Diff
+
+Após entrar no diretório do Laboratório 05, foi executado novamente:
+
+```bash
+git diff -- README.md
+```
+
+Dessa vez, o Git apresentou as alterações realizadas.
+
+O resultado demonstrou que o mesmo nome de arquivo pode representar arquivos diferentes dependendo do diretório de trabalho atual.
+
+Também seria possível consultar o arquivo diretamente da raiz do repositório:
+
+```bash
+git diff -- laboratorios/laboratorio-05-navegacao-diretorios/README.md
+```
+
+### 15.5. Investigação com caminhos relativos
+
+Durante os exercícios, foi necessário alternar entre dois projetos:
+
+```text
+/home/aluno/
+├── git-beyond-commit/
+└── linux-estudos/
+    └── laboratorios/
+        └── laboratorio-05-navegacao-diretorios/
+```
+
+Partindo de `/home/aluno/linux-estudos`, foi testado:
+
+```bash
+cd ../../../git-beyond-commit
+```
+
+O comando falhou porque o caminho relativo ultrapassou o diretório `/home/aluno` e tentou localizar `git-beyond-commit` na raiz `/`.
+
+Posteriormente, o mesmo comando foi executado a partir de:
+
+```text
+/home/aluno/linux-estudos/laboratorios/laboratorio-05-navegacao-diretorios
+```
+
+Nesse contexto, funcionou:
+
+```bash
+cd ../../../git-beyond-commit
+```
+
+O terminal passou a indicar:
+
+```text
+/home/aluno/git-beyond-commit
+```
+
+Para retornar ao projeto principal, foi utilizado:
+
+```bash
+cd ../linux-estudos
+```
+
+**Aprendizado:** caminhos relativos dependem do ponto de partida.
+
+### 15.6. Comparação dos comandos
+
+| Diretório atual | Comando | Resultado |
+|---|---|---|
+| `~/linux-estudos` | `cat README.md` | Exibe o README principal |
+| `~/linux-estudos` | `cat laboratorios/laboratorio-05-navegacao-diretorios/README.md` | Exibe o README do Laboratório 05 |
+| `~/linux-estudos/laboratorios/laboratorio-05-navegacao-diretorios` | `cat README.md` | Exibe o README do Laboratório 05 |
+| `~/linux-estudos/laboratorios/laboratorio-05-navegacao-diretorios` | `cat ../../README.md` | Exibe o README principal |
+| `~/linux-estudos` | `cd ../git-beyond-commit` | Acessa o outro projeto |
+| `~/linux-estudos/laboratorios/laboratorio-05-navegacao-diretorios` | `cd ../../../git-beyond-commit` | Acessa o outro projeto |
+
+### 15.7. Conclusão
+
+Este exercício demonstrou que conhecer a sintaxe de um comando não é suficiente: também é necessário compreender o contexto em que ele será executado.
+
+A investigação permitiu relacionar conceitos de navegação no Linux com o funcionamento do Git.
+
+O aprendizado foi construído por meio de tentativas, identificação de erros, análise dos resultados e correções.
+
+**Princípio consolidado:** antes de executar um comando que utiliza caminhos relativos, identificar o diretório atual e verificar o caminho do arquivo desejado.
+
 **Estudar. Compreender. Praticar. Documentar. Compartilhar.**
