@@ -518,4 +518,51 @@ Os erros de navegação foram utilizados para compreender como o Bash interpreta
 
 O objetivo não foi memorizar comandos isolados, mas compreender seus componentes e observar o comportamento real do sistema.
 
+---
+
+## 14. Revisão de alterações com Git Diff
+
+Durante a atualização do README principal, utilizamos o Git
+para conferir as alterações antes de registrá-las.
+
+### 14.1 Verificando alterações não preparadas
+
+```bash
+git diff -- README.md
+```
+
+Mostra as diferenças entre o arquivo de trabalho e a staging area.
+
+### 14.2 Verificando alterações preparadas
+
+```bash
+git diff --staged -- README.md
+```
+
+Mostra as diferenças entre a staging area e o último commit.
+
+### 14.3 Interpretando o resultado
+
+- `+` indica uma linha adicionada.
+- `-` indica uma linha removida.
+- `@@` identifica a localização das alterações.
+- `--` separa os argumentos de revisão das opções de caminho.
+
+### 14.4  Aprendizado prático
+
+Após executar `git add README.md`, o comando `git diff -- README.md`
+não apresentou diferenças.
+
+Entretanto, `git diff --staged -- README.md` mostrou a linha
+adicionada ao índice do repositório.
+
+Isso demonstrou a diferença entre alterações no diretório de
+trabalho e alterações preparadas para o próximo commit.
+
+Fluxo praticado:
+
+Editar → Conferir → Preparar → Registrar → Publicar.
+
+---
+
 **Estudar. Compreender. Praticar. Documentar. Compartilhar.**
