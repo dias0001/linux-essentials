@@ -39,6 +39,7 @@ O projeto segue uma abordagem progressiva: **estudar, compreender, praticar, doc
 | 02 — Usuários, grep, cut e pipe | [Criação de contas e consulta ao /etc/passwd](laboratorios/laboratorio-02-usuarios-cut/README.md) |
 | 03 — Nginx | [Instalação, gerenciamento e validação de servidor web](laboratorios/laboratorio-03-nginx/README.md) |
 | 04 — APT e Planner | [Pesquisa de pacotes, simulação, instalação e gráficos de Gantt](laboratorios/laboratorio-04-apt-planner/README.md) |
+| 05 — Navegação e comando ls | [Caminhos absolutos e relativos, diretórios, ls e VS Code Remote SSH](laboratorios/laboratorio-05-navegacao-diretorios/README.md) |
 
 ## 🔍 Conhecimentos praticados
 
