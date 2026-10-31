@@ -40,6 +40,7 @@ O projeto segue uma abordagem progressiva: **estudar, compreender, praticar, doc
 | 03 — Nginx | [Instalação, gerenciamento e validação de servidor web](laboratorios/laboratorio-03-nginx/README.md) |
 | 04 — APT e Planner | [Pesquisa de pacotes, simulação, instalação e gráficos de Gantt](laboratorios/laboratorio-04-apt-planner/README.md) |
 | 05 — Navegação e comando ls | [Caminhos absolutos e relativos, diretórios, ls e VS Code Remote SSH](laboratorios/laboratorio-05-navegacao-diretorios/README.md) |
+| 06 — grep, logs e pipe | [Pesquisa de logs, filtragem de texto e análise de espaço em disco](laboratorios/laboratorio-06-grep-logs/README.md) |
 
 ## 🔍 Conhecimentos praticados
 
@@ -246,6 +247,6 @@ O objetivo não é apenas memorizar comandos, mas desenvolver a capacidade de co
 ---
 
 **Início do projeto:** outubro de 2026  
-**Última atualização:** 27/10/2026
+**Última atualização:** 31/10/2026
 
 *Estudar. Compreender. Praticar. Documentar. Compartilhar.*
