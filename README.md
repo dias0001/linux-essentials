@@ -44,6 +44,24 @@ O projeto segue uma abordagem progressiva: **estudar, compreender, praticar, doc
 
 ## 🔍 Conhecimentos praticados
 
+# 🧪 Laboratórios práticos
+
+| Laboratório | Conteúdo | Status |
+|---|---|---|
+| 01 — Bash e Git | [Primeiros comandos e versionamento](laboratorios/laboratorio-01-bash-git.md) | ✅ Realizado |
+| 02 — Usuários, grep, cut e pipe | [Criação de contas e consulta ao /etc/passwd](laboratorios/laboratorio-02-usuarios-cut/README.md) | ✅ Realizado |
+| 03 — Nginx | [Instalação, gerenciamento e validação de servidor web](laboratorios/laboratorio-03-nginx/README.md) | ✅ Realizado |
+| 04 — APT e Planner | [Pesquisa de pacotes, simulação, instalação e gráficos de Gantt](laboratorios/laboratorio-04-apt-planner/README.md) | ✅ Realizado |
+| 05 — Navegação e comando ls | [Caminhos absolutos e relativos, diretórios, ls e VS Code Remote SSH](laboratorios/laboratorio-05-navegacao-diretorios/README.md) | ✅ Realizado |
+| 06 — grep, logs e pipe | [Pesquisa de logs, filtragem de texto e análise de espaço em disco](laboratorios/laboratorio-06-grep-logs/README.md) | ✅ Realizado |
+| 07 — KeePassXC | Criação de cofre criptografado e gerenciamento de senhas | 📅 Planejado |
+| 08 — Bitwarden | Cofre de senhas, criptografia e sincronização | 📅 Planejado |
+| 09 — Backup e recuperação | Estratégia 3-2-1, armazenamento seguro e restauração do cofre | 📅 Planejado |
+| 10 — GnuPG | Chaves públicas e privadas, criptografia, hash e assinatura digital | 📅 Planejado |
+| 11 — EncFS | Criptografia empilhada de arquivos e diretórios | 📅 Planejado |
+| 12 — VeraCrypt | Criação e montagem de volumes criptografados | 📅 Planejado |
+| 13 — dm-crypt/LUKS | Criptografia de bloco em volume virtual de testes | 📅 Planejado |
+
 ### Fundamentos Linux
 
 - Navegação no sistema de arquivos Linux.
