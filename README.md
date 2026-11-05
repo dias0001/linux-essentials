@@ -8,7 +8,7 @@ Construir uma base sólida em Linux, combinando teoria, prática no terminal, re
 
 Os conhecimentos também contribuem para minha formação em redes de computadores, infraestrutura e segurança defensiva (**Blue Team**).
 
-O projeto segue uma abordagem progressiva: **estudar, compreender, praticar, documentar e revisar**.
+ projeto segue uma abordagem progressiva: **estudar, compreender, praticar, documentar e revisar**.
 
 ## 💻 Ambiente de laboratório
 
@@ -30,17 +30,6 @@ O projeto segue uma abordagem progressiva: **estudar, compreender, praticar, doc
 | Linux Essentials — Objetivo 1.3 | [Software Open Source e Licenças](anotacoes/objetivo-1.3-licencas-open-source.md) | ✅ Estudado |
 | Linux Essentials — Objetivo 1.4 | [GUI, CLI, Bash e TTY](anotacoes/objetivo-1.4-cli-gui-tty.md) | 🔄 Em andamento |
 | Linux Essentials — Objetivo 1.4 | [PATH, caminhos e links simbólicos](anotacoes/objetivo-1.4-path-links-simbolicos.md) | ✅ Prática realizada |
-
-## 🧪 Laboratórios práticos
-
-| Laboratório | Conteúdo |
-|---|---|
-| 01 — Bash e Git | [Primeiros comandos e versionamento](laboratorios/laboratorio-01-bash-git.md) |
-| 02 — Usuários, grep, cut e pipe | [Criação de contas e consulta ao /etc/passwd](laboratorios/laboratorio-02-usuarios-cut/README.md) |
-| 03 — Nginx | [Instalação, gerenciamento e validação de servidor web](laboratorios/laboratorio-03-nginx/README.md) |
-| 04 — APT e Planner | [Pesquisa de pacotes, simulação, instalação e gráficos de Gantt](laboratorios/laboratorio-04-apt-planner/README.md) |
-| 05 — Navegação e comando ls | [Caminhos absolutos e relativos, diretórios, ls e VS Code Remote SSH](laboratorios/laboratorio-05-navegacao-diretorios/README.md) |
-| 06 — grep, logs e pipe | [Pesquisa de logs, filtragem de texto e análise de espaço em disco](laboratorios/laboratorio-06-grep-logs/README.md) |
 
 ## 🔍 Conhecimentos praticados
 
