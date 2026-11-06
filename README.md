@@ -1,4 +1,4 @@
-# 🐧 Linux Estudos | Linux Essentials → LPIC-1
+ # 🐧 Linux Estudos | Linux Essentials → LPIC-1
 
 Repositório pessoal dedicado ao aprendizado prático de Linux, com foco nos fundamentos do sistema operacional, administração de sistemas e preparação para as certificações **Linux Essentials** e, futuramente, **LPIC-1**.
 
@@ -28,12 +28,12 @@ Os conhecimentos também contribuem para minha formação em redes de computador
 | Linux Essentials — Objetivo 1.1 | [Introdução ao Linux](anotacoes/objetivo-1.1-linux.md) | ✅ Estudado |
 | Linux Essentials — Objetivo 1.2 | [Aplicativos Open Source](anotacoes/objetivo-1.2-aplicativos-open-source.md) | ✅ Estudado |
 | Linux Essentials — Objetivo 1.3 | [Software Open Source e Licenças](anotacoes/objetivo-1.3-licencas-open-source.md) | ✅ Estudado |
-| Linux Essentials — Objetivo 1.4 | [GUI, CLI, Bash e TTY](anotacoes/objetivo-1.4-cli-gui-tty.md) | 🔄 Em andamento |
+| Linux Essentials — Objetivo 1.4 | [GUI, CLI, Bash e TTY](anotacoes/objetivo-1.4-cli-gui-tty.md) | ✅ Estudado |
 | Linux Essentials — Objetivo 1.4 | [PATH, caminhos e links simbólicos](anotacoes/objetivo-1.4-path-links-simbolicos.md) | ✅ Prática realizada |
+| Linux Essentials — Objetivo 1.4 | [Habilidades de ICT, criptografia, exercícios e mapa mental](anotacoes/objetivo-1.4-habilidades-ict-linux.md) | 🔄 Revisão final pendente |
+| Linux Essentials — Objetivo 2.1 | Fundamentos da linha de comando — Lição 1 de 2 | 🔄 Em estudo |
 
-## 🔍 Conhecimentos praticados
-
-# 🧪 Laboratórios práticos
+## 🧪 Laboratórios práticos
 
 | Laboratório | Conteúdo | Status |
 |---|---|---|
@@ -130,6 +130,9 @@ Os conhecimentos também contribuem para minha formação em redes de computador
 - Sincronização de alterações entre GitHub e Ubuntu.
 - Utilização dos comandos `git status`, `git add`, `git commit`, `git push` e `git pull`.
 - Registro de procedimentos e resultados observados em laboratório.
+- Inclusão de mapas mentais na documentação Markdown por caminhos relativos.
+- Pré-visualização Markdown no VS Code com `Ctrl+Shift+V`.
+- Seleção explícita de arquivos com `git add` para evitar commits de alterações não relacionadas.
 
 ## 🔬 Destaque — Investigação prática do sistema Linux
 
@@ -243,17 +246,17 @@ O objetivo não é apenas memorizar comandos, mas desenvolver a capacidade de co
 
 ## 🚀 Próximos passos
 
-1. Continuar e concluir o Objetivo 1.4 do Linux Essentials.
-2. Avançar pelos demais objetivos da certificação 010-160.
-3. Revisar os fundamentos e realizar simulados.
-4. Preparar-se para o exame Linux Essentials.
-5. Desenvolver um cronograma de estudos utilizando o Planner.
+1. Realizar a revisão final pendente do Objetivo 1.4.
+2. Estudar o Objetivo 2.1 (linha de comando), seguindo as lições oficiais da LPI e utilizando a CertBest como apoio.
+3. Avançar pelos demais objetivos da certificação 010-160.
+4. Revisar os fundamentos e realizar simulados.
+5. Preparar-se para o exame Linux Essentials em dezembro de 2026.
 6. Após a certificação Linux Essentials, iniciar os estudos direcionados ao LPIC-1.
 7. Aprofundar o uso do Git progressivamente, aplicando-o à documentação e aos futuros projetos de automação.
 
 ---
 
 **Início do projeto:** outubro de 2026  
-**Última atualização:** 31/10/2026
+**Última atualização:** 06/11/2026
 
 *Estudar. Compreender. Praticar. Documentar. Compartilhar.*
