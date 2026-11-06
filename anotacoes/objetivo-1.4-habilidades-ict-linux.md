@@ -204,3 +204,26 @@ Os cinco exercícios guiados foram respondidos e corrigidos. As dúvidas ajudara
 **Observação:** esta seção documenta leitura, investigação no navegador, discussão e resolução de exercícios. Não representa execução de laboratórios de criptografia.
 
 **Princípio:** Estudar. Compreender. Praticar. Documentar. Compartilhar.
+
+
+## 9. Mapa mental — Objetivo 1.4
+
+![Mapa mental — Linux Essentials Objetivo 1.4](../imagens/linux-objetivo1.4-habilidades-ict-criptografia.png)
+
+
+### Visualização de Markdown no VS Code
+
+Durante a documentação do Objetivo 1.4, foi utilizada a pré-visualização do Markdown no VS Code conectado ao Ubuntu via Remote SSH.
+
+**Atalhos utilizados:**
+
+- `Ctrl + Shift + V` — abre a pré-visualização do arquivo Markdown.
+- `Ctrl + K`, depois `V` — abre a pré-visualização ao lado do editor.
+- `Ctrl + S` — salva as alterações do arquivo.
+
+**Aprendizado:**
+O arquivo `.md` contém texto e referências às imagens. O VS Code interpreta o Markdown e apresenta títulos, listas, formatação e imagens na pré-visualização.
+
+A imagem foi armazenada na pasta `imagens/` do repositório e referenciada no documento por um caminho relativo.
+
+**Validação:** a imagem foi exibida corretamente na pré-visualização do VS Code.
