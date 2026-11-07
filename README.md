@@ -43,7 +43,7 @@ Os conhecimentos também contribuem para minha formação em redes de computador
 | 04 — APT e Planner | [Pesquisa de pacotes, simulação, instalação e gráficos de Gantt](laboratorios/laboratorio-04-apt-planner/README.md) | ✅ Realizado |
 | 05 — Navegação e comando ls | [Caminhos absolutos e relativos, diretórios, ls e VS Code Remote SSH](laboratorios/laboratorio-05-navegacao-diretorios/README.md) | ✅ Realizado |
 | 06 — grep, logs e pipe | [Pesquisa de logs, filtragem de texto e análise de espaço em disco](laboratorios/laboratorio-06-grep-logs/README.md) | ✅ Realizado |
-| Complementar — LPI 2.1, Lição 1 | [Bash, expansão de chaves, curingas e redirecionamento](laboratorios/lpi-2.1-licao-1-bash/README.md) | ✅ Realizado |
+| 07 — Bash — LPI 2.1, Lição 1 | [Expansão de chaves, curingas e redirecionamento](laboratorios/lpi-2.1-licao-1-bash/README.md) | ✅ Realizado |
 | 09 — KeePassXC | Criação de cofre criptografado e gerenciamento de senhas | 📅 Planejado |
 | 10 — Bitwarden | Cofre de senhas, criptografia e sincronização | 📅 Planejado |
 | 11 — Backup e recuperação | Estratégia 3-2-1, armazenamento seguro e restauração do cofre | 📅 Planejado |
