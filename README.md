@@ -44,13 +44,13 @@ Os conhecimentos também contribuem para minha formação em redes de computador
 | 05 — Navegação e comando ls | [Caminhos absolutos e relativos, diretórios, ls e VS Code Remote SSH](laboratorios/laboratorio-05-navegacao-diretorios/README.md) | ✅ Realizado |
 | 06 — grep, logs e pipe | [Pesquisa de logs, filtragem de texto e análise de espaço em disco](laboratorios/laboratorio-06-grep-logs/README.md) | ✅ Realizado |
 | Complementar — LPI 2.1, Lição 1 | [Bash, expansão de chaves, curingas e redirecionamento](laboratorios/lpi-2.1-licao-1-bash/README.md) | ✅ Realizado |
-| 07 — KeePassXC | Criação de cofre criptografado e gerenciamento de senhas | 📅 Planejado |
-| 08 — Bitwarden | Cofre de senhas, criptografia e sincronização | 📅 Planejado |
-| 09 — Backup e recuperação | Estratégia 3-2-1, armazenamento seguro e restauração do cofre | 📅 Planejado |
-| 10 — GnuPG | Chaves públicas e privadas, criptografia, hash e assinatura digital | 📅 Planejado |
-| 11 — EncFS | Criptografia empilhada de arquivos e diretórios | 📅 Planejado |
-| 12 — VeraCrypt | Criação e montagem de volumes criptografados | 📅 Planejado |
-| 13 — dm-crypt/LUKS | Criptografia de bloco em volume virtual de testes | 📅 Planejado |
+| 09 — KeePassXC | Criação de cofre criptografado e gerenciamento de senhas | 📅 Planejado |
+| 10 — Bitwarden | Cofre de senhas, criptografia e sincronização | 📅 Planejado |
+| 11 — Backup e recuperação | Estratégia 3-2-1, armazenamento seguro e restauração do cofre | 📅 Planejado |
+| 12 — GnuPG | Chaves públicas e privadas, criptografia, hash e assinatura digital | 📅 Planejado |
+| 13 — EncFS | Criptografia empilhada de arquivos e diretórios | 📅 Planejado |
+| 14 — VeraCrypt | Criação e montagem de volumes criptografados | 📅 Planejado |
+| 15 — dm-crypt/LUKS | Criptografia de bloco em volume virtual de testes | 📅 Planejado |
 
 ### Fundamentos Linux
 
