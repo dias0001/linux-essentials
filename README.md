@@ -31,7 +31,7 @@ Os conhecimentos também contribuem para minha formação em redes de computador
 | Linux Essentials — Objetivo 1.4 | [GUI, CLI, Bash e TTY](anotacoes/objetivo-1.4-cli-gui-tty.md) | ✅ Estudado |
 | Linux Essentials — Objetivo 1.4 | [PATH, caminhos e links simbólicos](anotacoes/objetivo-1.4-path-links-simbolicos.md) | ✅ Prática realizada |
 | Linux Essentials — Objetivo 1.4 | [Habilidades de ICT, criptografia, exercícios e mapa mental](anotacoes/objetivo-1.4-habilidades-ict-linux.md) | 🔄 Revisão final pendente |
-| Linux Essentials — Objetivo 2.1 | Fundamentos da linha de comando — Lição 1 de 2 | 🔄 Em estudo |
+| Linux Essentials — Objetivo 2.1 | [Fundamentos da linha de comando — Lição 1](anotacoes/objetivo-2.1-licao-1-bash.md) | 🔄 Objetivo em andamento |
 
 ## 🧪 Laboratórios práticos
 
@@ -43,6 +43,7 @@ Os conhecimentos também contribuem para minha formação em redes de computador
 | 04 — APT e Planner | [Pesquisa de pacotes, simulação, instalação e gráficos de Gantt](laboratorios/laboratorio-04-apt-planner/README.md) | ✅ Realizado |
 | 05 — Navegação e comando ls | [Caminhos absolutos e relativos, diretórios, ls e VS Code Remote SSH](laboratorios/laboratorio-05-navegacao-diretorios/README.md) | ✅ Realizado |
 | 06 — grep, logs e pipe | [Pesquisa de logs, filtragem de texto e análise de espaço em disco](laboratorios/laboratorio-06-grep-logs/README.md) | ✅ Realizado |
+| Complementar — LPI 2.1, Lição 1 | [Bash, expansão de chaves, curingas e redirecionamento](laboratorios/lpi-2.1-licao-1-bash/README.md) | ✅ Realizado |
 | 07 — KeePassXC | Criação de cofre criptografado e gerenciamento de senhas | 📅 Planejado |
 | 08 — Bitwarden | Cofre de senhas, criptografia e sincronização | 📅 Planejado |
 | 09 — Backup e recuperação | Estratégia 3-2-1, armazenamento seguro e restauração do cofre | 📅 Planejado |
