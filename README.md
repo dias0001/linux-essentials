@@ -32,6 +32,15 @@ Os conhecimentos também contribuem para minha formação em redes de computador
 | Linux Essentials — Objetivo 1.4 | [PATH, caminhos e links simbólicos](anotacoes/objetivo-1.4-path-links-simbolicos.md) | ✅ Prática realizada |
 | Linux Essentials — Objetivo 1.4 | [Habilidades de ICT, criptografia, exercícios e mapa mental](anotacoes/objetivo-1.4-habilidades-ict-linux.md) | 🔄 Revisão final pendente |
 | Linux Essentials — Objetivo 2.1 | [Fundamentos da linha de comando — Lição 1](anotacoes/objetivo-2.1-licao-1-bash.md) | 🔄 Objetivo em andamento |
+| Linux Essentials — Objetivo 2.1 | [Variáveis do Bash — Lição 2](anotacoes/objetivo-2.1-licao-2-bash.md) | 🔄 Exercício 5 e revisão pendentes |
+
+### 🧠 Mapa mental — Objetivo 2.1, Lição 2
+
+Resumo visual dos conceitos de variáveis locais, variáveis de ambiente, expansão, substituição de comandos e herança entre processos.
+
+![Mapa mental — Variáveis no Bash](imagens/Mapa%20Mental_%20Vari%C3%A1veis%20no%20Bash%20Linux.png)
+
+📖 **Documentação relacionada:** [Objetivo 2.1 — Lição 2](anotacoes/objetivo-2.1-licao-2-bash.md)
 
 ## 🧪 Laboratórios práticos
 
@@ -248,7 +257,7 @@ O objetivo não é apenas memorizar comandos, mas desenvolver a capacidade de co
 ## 🚀 Próximos passos
 
 1. Realizar a revisão final pendente do Objetivo 1.4.
-2. Estudar o Objetivo 2.1 (linha de comando), seguindo as lições oficiais da LPI e utilizando a CertBest como apoio.
+2. Finalizar o exercício exploratório 5 e realizar a revisão prática do Objetivo 2.1 — Lição 2, antes de avançar para o próximo conteúdo oficial da LPI.
 3. Avançar pelos demais objetivos da certificação 010-160.
 4. Revisar os fundamentos e realizar simulados.
 5. Preparar-se para o exame Linux Essentials em dezembro de 2026.
@@ -258,6 +267,6 @@ O objetivo não é apenas memorizar comandos, mas desenvolver a capacidade de co
 ---
 
 **Início do projeto:** outubro de 2026  
-**Última atualização:** 06/11/2026
+**Última atualização:** 11/11/2026
 
 *Estudar. Compreender. Praticar. Documentar. Compartilhar.*
