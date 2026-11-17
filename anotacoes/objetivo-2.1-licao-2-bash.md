@@ -266,11 +266,184 @@ Consultar `today` posteriormente não executa novamente o comando `date`.
 
 ### 5. Variável today1 com a data do sistema
 
-Objetivo: criar a variável `today1` utilizando a data do sistema Ubuntu.
+**Objetivo:** armazenar a data e a hora do sistema Ubuntu em uma variável do Bash.
 
-**Situação:** pendente de execução e validação.
+**Comandos executados:**
 
-Não registrar como concluído antes da prática.
+```bash
+today1="$(date)"
+echo "$today1"
+```
+
+**Resultado observado no laboratório:**
+
+```text
+qui. 12 nov 2026 19:07:17 -03
+```
+
+**Interpretação:**
+
+- O comando `date` consulta a data e a hora do sistema.
+- A expressão `$(date)` executa o comando e captura sua saída.
+- A variável `today1` armazena o resultado naquele momento.
+- O comando `echo "$today1"` exibe o valor armazenado, sem executar novamente `date`.
+
+Durante a prática, foi esclarecido que a variável não atualiza seu conteúdo automaticamente com a passagem do tempo.
+
+Para atualizar o valor, é necessário executar novamente:
+
+```bash
+today1="$(date)"
+```
+
+**Conclusão:** a substituição de comandos permite armazenar o resultado de uma execução, mas não estabelece uma atualização contínua.
+
+**Situação:** exercício executado, validado e compreendido.
+
+## Revisão final — Comandos do Bash
+
+Após os exercícios exploratórios, foram revisados os comandos `env`, `echo`, `export` e `unset`, com testes práticos no Ubuntu.
+
+### 1. Comando env
+
+Permite visualizar as variáveis de ambiente disponíveis para o processo.
+
+```bash
+number=10
+export ORDER=100
+env | grep -E '^(number|ORDER)='
+```
+
+Resultado observado:
+
+```text
+ORDER=100
+```
+
+**Interpretação:** `ORDER` aparece porque foi exportada. `number` permanece como variável do shell atual, sem exportação.
+
+### 2. Comando echo
+
+Utilizado para exibir textos e valores após a expansão realizada pelo shell.
+
+```bash
+echo number
+echo "$number"
+echo "$ORDER"
+```
+
+Resultados:
+
+```text
+number
+10
+100
+```
+
+**Interpretação:** sem `$`, `number` é texto literal. Com `$`, o Bash expande a variável para seu valor.
+
+### 3. Comando export
+
+Marca uma variável para ser incluída no ambiente transmitido aos processos filhos.
+
+```bash
+export ORDER=100
+```
+
+O comando não remove a variável do shell pai nem cria diretamente uma variável exclusiva do filho.
+
+### 4. Comando unset
+
+Remove uma variável do shell atual.
+
+```bash
+unset ORDER
+echo "number=$number | ORDER=$ORDER"
+```
+
+Resultado observado:
+
+```text
+number=10 | ORDER=
+```
+
+**Interpretação:** `ORDER` deixou de estar definida no shell atual, enquanto `number` permaneceu com seu valor.
+
+## Laboratório complementar — Processos pai e filho
+
+**Objetivo:** compreender a herança de variáveis entre processos Bash e identificar a relação entre PID e PPID.
+
+### 1. Preparação no Bash pai
+
+Foram utilizadas as variáveis:
+
+```bash
+number=10
+export ORDER=100
+```
+
+O Bash pai apresentava PID `4625`.
+
+### 2. Criação de um Bash filho
+
+Foi executado:
+
+```bash
+bash
+```
+
+No processo filho, foram observados:
+
+```text
+PID=5597
+PPID=4625
+```
+
+A consulta das variáveis demonstrou:
+
+- `number` não estava disponível, pois não havia sido exportada.
+- `ORDER` estava disponível com valor `100`, pois foi herdada do ambiente do Bash pai.
+
+### 3. Encerramento e criação de outro processo filho
+
+Após executar `exit`, foi iniciado outro Bash.
+
+O segundo processo filho recebeu PID `5987`, mantendo PPID `4625`.
+
+Para verificar a relação entre os processos, foi utilizado:
+
+```bash
+ps -o pid,ppid,cmd -p 4625,5597,5987
+```
+
+A consulta confirmou que o primeiro processo filho já havia terminado e que o segundo estava associado ao Bash pai.
+
+### 4. Retorno ao processo pai
+
+Após encerrar o segundo Bash filho com `exit`, foi executado:
+
+```bash
+echo "PID=$$ | number=$number | ORDER=$ORDER"
+```
+
+Resultado observado:
+
+```text
+PID=4625 | number=10 | ORDER=100
+```
+
+**Conclusão:** iniciar ou encerrar processos filhos não elimina as variáveis do Bash pai. Variáveis exportadas podem ser herdadas pelos filhos, enquanto variáveis não exportadas permanecem restritas ao shell em que foram definidas.
+
+### Aprendizados adicionais
+
+- `$$` permite consultar o PID do Bash em execução.
+- `$PPID` identifica o PID do processo pai.
+- `ps` permite examinar processos e suas relações.
+- O Bash diferencia letras maiúsculas de minúsculas: `number` e `NUMBER` são nomes distintos.
+- Comandos como `echo` e `env` também diferenciam maiúsculas de minúsculas.
+- A expansão de variáveis é realizada pelo shell antes da execução do comando.
+
+**Situação:** revisão final e laboratório complementar concluídos e compreendidos.
 
 ## Laboratório adicional — Diagnóstico de horário no Ubuntu
 
@@ -368,10 +541,10 @@ Esse diagnóstico foi um aprendizado complementar surgido durante a prática, se
 - Evitar alterar configurações do sistema sem verificar primeiro o estado atual.
 - Validar resultados antes de declarar exercícios ou diagnósticos concluídos.
 
-## Próxima etapa de estudo
+## Conclusão — Objetivo 2.1, Lição 2
 
-1. Finalizar o exercício exploratório 5.
-2. Realizar uma revisão prática dos conceitos da Lição 2.
-3. Validar a conclusão da lição antes de avançar no material oficial.
+A Lição 2 foi concluída com estudo teórico, exercícios guiados e exploratórios, revisão dos comandos `env`, `echo`, `export` e `unset` e laboratório complementar sobre processos pai e filho.
 
-**Status geral:** Objetivo 2.1 em andamento. A Lição 2 ainda não foi declarada concluída.
+**Status:** Lição 2 concluída, praticada e documentada.
+
+**Próxima etapa:** avançar na sequência do material oficial LPI Linux Essentials 010-160.
